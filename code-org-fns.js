@@ -21,7 +21,11 @@ function getText(elementId) {
 
 function getNumber(elementId) {
     const element = document.getElementById(elementId);
-    return parseInt(element.textContent);
+    if(element.tagName === "INPUT") {
+        return parseInt(element.value);
+    } else {
+        return parseInt(element.textContent);
+    }
 }
 
 function playSound(url, loop = false) {
