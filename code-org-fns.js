@@ -44,6 +44,16 @@ function setProperty(elementId, property, value) {
     element.style[property] = value;
 }
 
+function showScreen(screenId) {
+    const screen = document.getElementById(screenId);
+    screen.style.display = "block";
+    const screens = document.querySelectorAll("section");
+    screens.forEach(screen => {
+        if(screen.id !== screenId) {
+            screen.style.display = "none";
+        }
+    });
+}
 
 
 
