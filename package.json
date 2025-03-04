@@ -1,0 +1,14 @@
+{
+  "name": "javascript-code-starter",
+  "version": "1.0.0",
+  "description": "An HMTL/JS starter project with functions that are familiar to students learning on code.org.",
+  "main": "code-org-fns.js",
+  "scripts": {
+    "start": "servor --reload"
+  },
+  "dependencies": {
+    "servor": "^4.0.2"
+  },
+  "author": "Robert McCreary",
+  "license": "ISC"
+}
