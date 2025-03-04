@@ -10,11 +10,21 @@ If you are familiar with the App Lab, you can use the functions like
 
 ## Usage
 
-Clone this repository or use it as a template.
+**Quickstart**: To get started instantly, click the button to open in Stackblitz.
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/~/github.com/rmccrear/javascript-code-starter?file=index.html)
+
+**Cloning**: To use in your own text editor, clone this repository or use it as a template.
+
+```bash
+    git clone https://github.com/rmccrear/javascript-code-starter.git
+```
 
 Edit the files `index.html` and `script.js`.
 
-Leave the file `code-org-fns.js` alone. It defines the functions you may use and helps with compatibility with code.org's App Lab functions.
+Use the Live Server VSCode Extension or another webserver to launch your page.
+
+**Note**: Leave the file `code-org-fns.js` alone. It defines the functions you may use and helps with compatibility with code.org's App Lab functions.
 
 ## Contributing
 
